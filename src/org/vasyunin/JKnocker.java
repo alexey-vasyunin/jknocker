@@ -1,3 +1,5 @@
+package org.vasyunin;
+
 import java.io.IOException;
 
 public class JKnocker {
@@ -5,6 +7,7 @@ public class JKnocker {
     private String host;
 
     public static void main(String[] args) {
+        System.out.println("JKnocker");
         new JKnocker().start(args);
     }
 
